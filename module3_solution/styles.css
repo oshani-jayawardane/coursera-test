@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #f8f0c6;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/*header*/
+#header-nav {
+  background-color: #000000;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-brand{
+  margin: auto;
+  height: 70px;
+}
+
+.navbar-brand h1{
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.75em;
+  margin: auto;
+  padding-left: 30px;
+}
+
+.navbar-toggle {
+float: right;
+height: 40px;
+margin-top: 15px;
+}
+
+#nav-list{
+  padding: 10px;
+}
+
+#nav-list a {
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+
+#nav-list a:hover, a:active{
+  background-color: #ebebeb;
+  color: #000000;
+}
+
+/*end header*/
+
+/*main content*/
+#main-content h2{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+}
+
+#description-box {
+  position: relative;
+  background-color: #f8eee7;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1.5px solid black;
+}
+
+#description-box h3 {
+  position: absolute;
+  top: -1.5px;
+  right: -1.5px;
+  font-weight: 400;
+  font-size: 1.2em;
+  border: 1.5px solid black;
+  padding: 8px 48px 8px 48px;
+  margin: 0;
+  float: right;
+}
+
+#description-box h3#chicken{
+  background-color: #f19e9d;
+  color: black;
+}
+
+#description-box h3#beef{
+	background-color: #d0312d;
+	color: white;
+}
+
+#description-box h3#sushi{
+	background-color: #fff192;
+	color: black;
+}
+
+#description-box p{
+  padding-top: 50px;
+  font-size: 1em;
+}
+
+.back-to-top {
+  text-align: center;
+  padding: 5px;
+  font-size: .8em;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*end page*/

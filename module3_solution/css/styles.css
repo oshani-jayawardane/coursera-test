@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	font-family: 'Comic Neue', cursive;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+h1{
+  text-align: center;
+  font-size: 200%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  font-size: 150%;
+  font-weight: 700;
+  border: 2px solid black;
+  padding: 5px 50px 5px 50px;
+  float: right;
+}
+
+h2#chicken{
+  background-color: #f19e9d;
+  color: black;
+}
+
+h2#beef{
+	background-color: #d0312d;
+	color: white;
+}
+
+h2#sushi{
+	background-color: #fff192;
+	color: black;
+}
+
+div.box {
+  position: relative;
+  background-color: #a9a9a9;
+  padding: 20px;
+  margin: 15px;
+  border: 2px solid black;
+}
+
+p{
+  padding-top: 40px;
+  font-size: 125%;
+}
+
+.row{
+  width: 100%;
+}
+
+.container{
+  position: relative;
+}
